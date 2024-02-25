@@ -1,0 +1,16 @@
+.img-event-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-event {
+    border: solid 1px black;
+    margin-right: 20px; /* Jarak antar gambar */
+    padding: 5px;
+    text-align: center;
+}
+
+.img-event img {
+    max-width: 200px; /* Sesuaikan ukuran gambar */
+    height: auto;
+}

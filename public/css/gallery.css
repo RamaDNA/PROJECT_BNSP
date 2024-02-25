@@ -1,0 +1,16 @@
+.img-gallery-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-gallery {
+    border: solid 1px black;
+    margin-right: 20px; /* Jarak antar gambar */
+    padding: 5px;
+    text-align: center;
+}
+
+.img-gallery img {
+    max-width: 300px; /* Sesuaikan ukuran gambar */
+    height: auto;
+}

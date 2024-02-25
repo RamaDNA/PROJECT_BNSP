@@ -1,0 +1,16 @@
+.img-artikel-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-artikel {
+    border: solid 1px black;
+    margin-right: 20px; /* Jarak antar gambar */
+    padding: 5px;
+    text-align: center;
+}
+
+.img-artikel img {
+    max-width: 300px; /* Sesuaikan ukuran gambar */
+    height: fixed;
+}
